@@ -1,0 +1,133 @@
+body {
+    font-family:'Rubik',sans-serif;
+}
+#main-calculator {
+    width:450px;
+    height:560px;
+    background-color:rgb(71 67 108);
+    display:block;
+    padding:2px;
+    margin:20px auto 0 auto;
+}
+#display-full {
+    width: 95%;
+    height: 80px;
+    margin: 12px auto 7px auto;
+    background-color: rgb(63 103 152);
+    font-family: 'Wallpoet', cursive;
+    text-align:right;
+    
+    padding-right:5px;
+}
+#display-workings {
+    height: 30px;
+    color:rgb(222 148 57);
+    margin:1px 3px 2px 3px;
+    font-size:25px;
+}
+#display {
+    height: 48px;
+    color: rgb(240 240 214);
+    margin: 0 3px 1px 3px;
+    font-size: 40px;
+}
+
+.button-row {
+    width:95%;
+    height:80px;
+    margin:2px auto 0 auto;
+}
+.button-row div, .button-row-lower div {
+    background-color: rgb(107 146 174);
+    height: 80px;
+}
+#top-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+#second-row, #third-row {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:5px;
+    row-gap:5px;
+}
+#lower-rows-container {
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    width:95%;
+    margin:2px auto 0 auto;
+    column-gap:2px;
+}
+#lower-triplet {
+    display:block;
+    width:100%;
+}
+#fourth-row {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap:5px;
+}
+#fifth-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 2px auto 0 auto;
+}
+#clear {
+    padding-right:0;
+    background-color:rgb(164 45 7);
+}
+#equals {
+    height: 162px;
+    margin-left:3px;
+    background-color: rgb(63 103 152);
+}
+#divide {
+    margin-left:3px;
+}
+#multiply {
+    margin-left: 2px;
+}
+.calc-button {
+    vertical-align: middle;
+    border-radius: 5px;
+    font-family:'Rubik',sans-serif;
+    font-size:20px;
+    font-weight:800;
+    color:rgb(191 165 185);
+    display:table;
+}
+.calc-button p {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#logo-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+    background-color: rgb(191 165 185);
+    color: rgb(63 103 152);
+    font-weight: 700;
+    width:95%;
+    height:40px;
+    margin:5px auto 0 auto;
+    border-radius:20px 20px 0 0;
+}
+#fcc-logo {
+    font-size: 26px;
+    position:absolute;
+    left:32%;
+    top:0%;
+}
+
+#fcc-text {
+    font-size: 23px;
+    position:absolute;
+    left:41%;
+    top:3%;
+}
